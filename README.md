@@ -4,7 +4,7 @@
 
 ## Initial Updates and Config
 
-#### Mac OSX
+### Mac OSX
 
 **Check that XCode Command Line Tools and Git are installed**
 
@@ -37,7 +37,7 @@ Terminal > Preferences... > Keyboard > Check: "Use Option as Meta key"
 
 
 
-#### Linux
+### Linux
 
 ~~~
 sudo apt-get update
@@ -81,7 +81,7 @@ emacs
 https://conda.io/docs/install/quick.html#quick-install
 
 
-#### Mac OSX
+### Mac OSX
 
 ~~~
 cd $HOME
@@ -107,7 +107,7 @@ alias emacs='/Applications/Emacs.app/Contents/MacOS/Emacs -nw'
 
 
 
-#### Linux
+### Linux
 
 ~~~
 cd $HOME
