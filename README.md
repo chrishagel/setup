@@ -6,7 +6,7 @@
 
 #### Mac OSX
 
-Check that XCode Command Line Tools and Git are installed
+**Check that XCode Command Line Tools and Git are installed**
 
 ~~~
 xcode-select -p
@@ -14,7 +14,7 @@ git --version
 ~~~
 
 
-If not, install Xcode Command Line Tools, which could auto-install Git:
+If not, install Xcode Command Line Tools, which should auto-install Git:
 https://apple.stackexchange.com/questions/102073/does-installing-command-line-tools-for-xcode-also-install-git
 
 ~~~
@@ -22,16 +22,18 @@ xcode-select --install
 ~~~
 
 
-Download Emacs
+**Download Emacs**
 
 https://emacsformacosx.com/
 
 
-Remap Caps Lock to Control: System Preferences > Keyboard > Modifier Keys... > Caps Lock Key -> ^ Control
+**Remap Caps Lock to Control**
+System Preferences > Keyboard > Modifier Keys... > Caps Lock Key -> ^ Control
 
-Use Option as Meta: Terminal > Preferences... > Keyboard > Check: "Use Option as Meta key"
+**Use Option as Meta**
+Terminal > Preferences... > Keyboard > Check: "Use Option as Meta key"
 
-Set Terminal Color Scheme to something dark (Homebrew)
+**Set Terminal Color Scheme to something dark (Homebrew)**
 
 
 
@@ -51,16 +53,16 @@ Use 'ln -sb' in place of 'cp -b' to create softlinks. Use 'ln -s' (no '-b') in c
 
 ~~~
 cd $HOME
-git clone https://github.com/chrishagel/dataScienceSetup.git
+git clone https://github.com/chrishagel/setup.git
 
-cd -b dataScienceSetup/dotfiles/.bash_profile .
-cp -b dataScienceSetup/dotfiles/.bashrc .
-cp -b dataScienceSetup/dotfiles/.bash_custom_eternal_history .
-cp -b dataScienceSetup/dotfiles/.zshrc .
-cp -b dataScienceSetup/dotfiles/.screenrc .
+cd -b setup/dotfiles/.bash_profile .
+cp -b setup/dotfiles/.bashrc .
+cp -b setup/dotfiles/.bash_custom_eternal_history .
+cp -b setup/dotfiles/.zshrc .
+cp -b setup/dotfiles/.screenrc .
 
 mv .emacs.d .emacs.d~
-cp -r dataScienceSetup/dotfiles/.emacs.d .
+cp -r setup/dotfiles/.emacs.d .
 ~~~
 
 
