@@ -1,0 +1,24 @@
+
+## --------------------
+## Basic Screen Config
+## --------------------
+
+# https://serverfault.com/questions/126009/how-do-i-ask-screen-to-behave-like-a-standard-bash-shell
+defshell -bash
+
+
+# https://stackoverflow.com/questions/15375992/vim-difference-between-t-co-256-and-term-xterm-256color-in-conjunction-with-tmu/15378816#15378816
+# https://gist.github.com/limingjie/4975c36d13d0927613e6
+#term "screen-256color"
+term xterm-256color
+
+
+# https://github.com/startup-class/dotfiles/blob/master/.screenrc
+escape   "^Tt"                         # ctrl-A default interferes with emacs keybindings for terminal
+
+hardstatus alwayslastline "%H %-Lw%{= BW}%50>%n%f* %t%{-}%+Lw%<"
+
+screen -t emacs 0
+screen -t bash 1
+
+
