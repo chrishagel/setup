@@ -28,9 +28,11 @@ https://emacsformacosx.com/
 
 
 **Remap Caps Lock to Control**
+
 System Preferences > Keyboard > Modifier Keys... > Caps Lock Key -> ^ Control
 
 **Use Option as Meta**
+
 Terminal > Preferences... > Keyboard > Check: "Use Option as Meta key"
 
 **Set Terminal Color Scheme to something dark (Homebrew)**
@@ -57,7 +59,6 @@ git clone https://github.com/chrishagel/setup.git
 
 cd -b setup/dotfiles/.bash_profile .
 cp -b setup/dotfiles/.bashrc .
-cp -b setup/dotfiles/.bash_custom_eternal_history .
 cp -b setup/dotfiles/.zshrc .
 cp -b setup/dotfiles/.screenrc .
 
