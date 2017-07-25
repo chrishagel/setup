@@ -7,7 +7,7 @@
  
 ;; M-x run-octave
 
-;; C-c C-il evalualte line
+;; C-c C-il evaluate line
 ;; C-c C-ir or C-ib evaluate block/region
 
 (autoload 'octave-mode "octave-mod" nil t)
