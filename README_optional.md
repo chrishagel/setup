@@ -22,13 +22,19 @@ conda install r r-essentials
 
 
 
-## Install Octave and Mit-Scheme
+## Install Octave, Mit-Scheme, Pandoc, and Julia
+
+Octave intructions: https://www.gnu.org/software/octave/download.html
+Pandoc instructions: http://pandoc.org/installing.html
+Julia instructions: https://julialang.org/downloads/platform.html
 
 ### Mac OSX
 
 ~~~
 brew install octave
 brew install mit-scheme
+brew install pandoc
+brew cask install julia
 ~~~
 
 
@@ -37,7 +43,10 @@ brew install mit-scheme
 ~~~
 sudo apt-get install octave
 sudo apt-get install mit-scheme
+sudo apt-get install pandoc
+sudo apt-get install julia
 ~~~
+
 
 
 ## Dropbox (Headless, Linux)
