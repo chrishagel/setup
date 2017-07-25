@@ -33,4 +33,11 @@ C-x C-e with cursor to right of final paren
 
 
 
+## Emacs complains that a package is not found (in Melpa)
+
+Run the following in emacs then close and reopen emacs to try again
+
+~~~
+M-x package-refresh-contents
+~~~
 

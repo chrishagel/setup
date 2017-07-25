@@ -58,6 +58,9 @@
 (load "~/.emacs.d/configFiles/init_autosaves_backups.el")
 (load "~/.emacs.d/configFiles/init_markdown.el")
 (load "~/.emacs.d/configFiles/init_python.el")
+(load "~/.emacs.d/configFiles/init_ess.el")
+(load "~/.emacs.d/configFiles/init_octave.el")
+(load "~/.emacs.d/configFiles/init_scheme.el")
 
 
 (custom-set-variables
