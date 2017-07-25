@@ -14,5 +14,5 @@ fi
 ## ----------------------
 
 ## Uncomment/modify
-#export PATH="/Users/<USERNAME>/miniconda3/bin:$PATH" # MacOS
+export PATH="/Users/chagel/miniconda3/bin:$PATH" # MacOS
 #export PATH="/home/<USERNAME>/miniconda3/bin:$PATH" # Linux

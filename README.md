@@ -51,13 +51,23 @@ sudo apt-get install git
 
 ## Configure Programs 
 
-Use 'ln -sb' in place of 'cp -b' to create softlinks. Use 'ln -s' (no '-b') in case of .emacs.d.
+Use 'ln -sb' in place of 'cp -b' to create symlinks. Use 'ln -s' (no '-b') in case of .emacs.d.
+
+'-b' flag may not work on MacOSX. If not, precede cp/ln commands with:
+
+~~~
+cd $HOME
+mv .bash_profile .bash_profile~
+mv .bashrc .bashrc~
+mv .zshrc .zshrc~
+mv .screenrc .screenrc~
+~~~
 
 ~~~
 cd $HOME
 git clone https://github.com/chrishagel/setup.git
 
-cd -b setup/dotfiles/.bash_profile .
+cp -b setup/dotfiles/.bash_profile .
 cp -b setup/dotfiles/.bashrc .
 cp -b setup/dotfiles/.zshrc .
 cp -b setup/dotfiles/.screenrc .
