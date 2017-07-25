@@ -67,15 +67,6 @@ cp -r setup/dotfiles/.emacs.d .
 ~~~
 
 
-Remove elpa folder to allow emacs to reinstall packages
-
-~~~
-cd $HOME/.emacs.d
-rm -r elpa
-emacs
-~~~
-
-
 
 ## Download Conda for Package and Environment Management
 
