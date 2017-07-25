@@ -8,9 +8,8 @@
 
 
 ;; Put autosave files (i.e. #foo#) and backup files (i.e. foo~) in ~/.emacs.d/.
-(custom-set-variables
-  '(auto-save-file-name-transforms '((".*" "~/.emacs.d/autosaves/\\1" t)))
-  '(backup-directory-alist '((".*" . "~/.emacs.d/backups/"))))
+(setq auto-save-file-name-transforms '((".*" "~/.emacs.d/autosaves/\\1" t)))
+(setq backup-directory-alist '(("." . "~/.emacs.d/backups/")))
 
 
 ; Set Backups Options
