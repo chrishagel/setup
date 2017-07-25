@@ -2,7 +2,7 @@
 # Install Script
 
 
-## Initial Updates and Config
+## Initial Updates and General Config
 
 ### Mac OSX
 
@@ -35,7 +35,7 @@ System Preferences > Keyboard > Modifier Keys... > Caps Lock Key -> ^ Control
 
 Terminal > Preferences... > Keyboard > Check: "Use Option as Meta key"
 
-**Set Terminal Color Scheme to something dark (Homebrew)**
+**Set Terminal color scheme to something dark (Homebrew)**
 
 
 
@@ -127,7 +127,7 @@ conda install numpy scipy pandas scikit-learn jupyter matplotlib seaborn sqlalch
 
 
 
-## Set up SSH into remote AWS instance
+## Set up SSH into remote (AWS) instance
 
 ~~~
 emacs .ssh/config
