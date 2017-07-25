@@ -16,17 +16,17 @@ brew update && brew upgrade
 
 ## Install Octave and Mit-Scheme
 
-### Linux
-
-~~~
-sudo apt-get install octave
-sudo apt-get install mit-scheme
-~~~
-
-
 ### Mac OSX
 
 ~~~
 brew install octave
 brew install mit-scheme
+~~~
+
+
+### Linux
+
+~~~
+sudo apt-get install octave
+sudo apt-get install mit-scheme
 ~~~
