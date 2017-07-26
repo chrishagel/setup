@@ -1,0 +1,61 @@
+
+
+### Ubuntu Setup
+
+This file describes how to set up a basic development environment on a Linux box running Ubuntu 16 LTS. 
+
+| 1. [Update Sudo and Git](#update)
+| 2. [Conda](#conda)
+| 3. [Configure Programs](#configure)
+| 4. [Customizations](#customize)
+
+
+#### Update Sudo and Git {#update}
+
+```
+sudo apt-get update && upgrade
+sudo apt-get install git
+```
+
+
+#### Conda {#conda}
+
+<https://conda.io/docs/install/quick.html#quick-install>
+
+```
+cd $HOME
+curl -O https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh
+bash Miniconda3-latest-Linux-x86_64.sh 
+
+conda update --all
+```
+
+
+#### Configure Programs {#configure}
+
+<https://github.com/chrishagel/setup>
+
+Use ln -s instead of cp for symlinks.
+
+```
+cd $HOME
+git clone https://github.com/chrishagel/setup.git
+
+cp -b setup/dotfiles/.bash_profile .
+cp -b setup/dotfiles/.bashrc .
+cp -b setup/dotfiles/.zshrc .
+cp -b setup/dotfiles/.screenrc .
+
+mv .emacs.d .emacs.d~
+cp -r setup/dotfiles/.emacs.d .
+```
+
+
+#### Customizations {#customize}
+
+Only one customization should be necessary:
+
+1. Make sure .bash_profile can find conda programs.
+```
+export PATH="/home/<USER NAME>/miniconda3/bin:$PATH"
+```

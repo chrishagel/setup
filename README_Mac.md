@@ -1,45 +1,68 @@
-# Install Script for Mac OSX
 
 
-## Initial Updates and General Config
+### Mac Setup
 
-**Check that XCode Command Line Tools and Git are installed**
+This file describes how to set up a basic development environment on a Mac running Sierra. 
 
-~~~
-xcode-select -p
-git --version
-~~~
+| 1. [XCode Command Line Tools and Git](#xcode)
+| 2. [Homebrew](#homebrew)
+| 3. [Conda](#conda)
+| 4. [GNU Core Utilities](#coreutils)
+| 5. [Configure Programs](#configure)
+| 6. [Emacs](#emacs)
+| 7. [Customizations](#customize)
 
 
-If not, install Xcode Command Line Tools, which should auto-install Git:
-https://apple.stackexchange.com/questions/102073/does-installing-command-line-tools-for-xcode-also-install-git
+#### XCode Command Line Tools and Git {#xcode}
 
-~~~
+```
+xcode-select -p && which git #check installation
 xcode-select --install
-~~~
+```
 
 
-**Download Emacs**
+#### Homebrew {#homebrew}
 
-https://emacsformacosx.com/
+<https://brew.sh/>
 
+```
+cd $HOME
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-**Remap Caps Lock to Control**
-
-System Preferences > Keyboard > Modifier Keys... > Caps Lock Key -> ^ Control
-
-**Use Option as Meta**
-
-Terminal > Preferences... > Keyboard > Check: "Use Option as Meta key"
-
-**Set Terminal color scheme to something dark (Homebrew)**
+brew update && brew upgrade
+```
 
 
-## Configure Programs 
+#### Conda {#conda}
 
-Use 'ln -s' in place of 'cp' to create symlinks.
+<https://conda.io/docs/install/quick.html#quick-install>
 
-~~~
+```
+cd $HOME
+curl -O https://repo.continuum.io/miniconda/Miniconda3-latest-MacOSX-x86_64.sh
+bash Miniconda3-latest-MacOSX-x86_64.sh 
+
+conda update --all
+```
+
+#### GNU Core Utilities {#coreutils}
+
+<https://anaconda.org/bioconda/coreutils>
+
+Also available via homebrew: `brew install coreutils`
+
+```
+conda install -c bioconda coreutils
+```
+
+
+#### Configure Programs {#configure}
+
+<https://github.com/chrishagel/setup>
+
+Use ln -s instead of cp for symlinks.
+
+```
 cd $HOME
 git clone https://github.com/chrishagel/setup.git
 
@@ -54,34 +77,34 @@ cp setup/dotfiles/.bashrc .
 cp setup/dotfiles/.zshrc .
 cp setup/dotfiles/.screenrc .
 cp -r setup/dotfiles/.emacs.d .
-~~~
-
-Make sure to uncomment/modify emacs alias in .bashrc
-
-~~~
-emacs .bashrc
-alias emacs='/Applications/Emacs.app/Contents/MacOS/Emacs -nw'
-~~~
+```
 
 
+#### Emacs {#emacs}
 
-## Download Conda for Package and Environment Management
+<https://emacsformacosx.com/>
 
-https://conda.io/docs/install/quick.html#quick-install
+Download and install gui version from link above, then do the following:
 
-~~~
-cd $HOME
-curl -O https://repo.continuum.io/miniconda/Miniconda3-latest-MacOSX-x86_64.sh
-bash Miniconda3-latest-MacOSX-x86_64.sh
-conda update --all
-~~~
+1. Remap Caps Lock to Control
+
+> System Preferences > Keyboard > Modifier Keys... > Caps Lock Key -> ^ Control
+
+2. Use Option as Meta
+
+> Terminal > Preferences... > Keyboard > Check: "Use Option as Meta key"
 
 
-Check that conda path is added to .bash_profile
+#### Customizations {#customize}
 
-~~~
-emacs .bash_profile
+Only two customizations should be necessary:
+
+1. Make sure .bash_profile can find conda programs.
+```
 export PATH="/Users/<USER NAME>/miniconda3/bin:$PATH"
-~~~
+```
 
-
+2. Make sure .bashrc knows to use the gui emacs in Terminal.
+```
+alias emacs='/Applications/Emacs.app/Contents/MacOS/Emacs -nw'
+```
