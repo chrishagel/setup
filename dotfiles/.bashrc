@@ -26,7 +26,7 @@ alias m='less'
 alias du='du -ch --max-depth=1'
 alias treeacl='tree -A -C -L 2'
 
-# alias emacs='/Applications/Emacs.app/Contents/MacOS/Emacs -nw' # Mac OSX
+alias emacs='/Applications/Emacs.app/Contents/MacOS/Emacs -nw' # Mac OSX
 
 
 

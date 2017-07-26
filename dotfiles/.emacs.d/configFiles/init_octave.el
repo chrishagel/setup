@@ -17,6 +17,9 @@
 (add-hook 'octave-mode-hook
           (lambda ()
             (abbrev-mode 1)
-            (auto-fill-mode 1)
+            (auto-fill-mode 0)
             (if (eq window-system 'x)
-                (font-lock-mode 1))))
+                (font-lock-mode 1))
+            (local-set-key (kbd "C-c C-c") 'octave-send-region)
+            ))
+
