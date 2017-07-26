@@ -13,7 +13,7 @@ This file describes how to set up a basic development environment on a Mac runni
 7. [Customizations](#customize)
 
 
-#### XCode Command Line Tools and Git {#xcode}
+#### XCode Command Line Tools and Git <a id='xcode'></a>
 
 ```
 xcode-select -p && which git #check installation
