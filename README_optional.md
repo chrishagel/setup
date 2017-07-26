@@ -107,6 +107,11 @@ ssh <HOST NAME>
 
 ## Set up browser Markdown preview cabailities (Emacs)
 
+Markdown mode: http://jblevins.org/projects/markdown-mode
+
+Github flavored markdown css: https://gist.github.com/tuzz/3331384#file-github-css
+
+
 1. Ensure the path is correct to link the github.css stylesheet:
 
 ~~~
