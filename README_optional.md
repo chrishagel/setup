@@ -111,19 +111,15 @@ Markdown mode: http://jblevins.org/projects/markdown-mode
 
 Github flavored markdown css: https://gist.github.com/tuzz/3331384#file-github-css
 
+0. Check init_markdown.el for specifics on css for markdown preview in browser 
 
-1. Ensure the path is correct to link the github.css stylesheet:
-
-~~~
-emacs $HOME/.emacs.d/dotfiles/configFiles/init_markdown.el
-~~~
-
-2. Download and install a browser refresh extension. I've tested these for chrome:
+1. Download and install a browser refresh extension. I've tested these for chrome:
 
     a. Easy Auto Refresh
+    
     b. Super Auto Refresh
 
-3. When writing markdown, initiate live preview mode (within markdown-mode) and set the desired refresh rate in the browser extension.
+2. When writing markdown, initiate live preview mode (within markdown-mode) and set the desired refresh rate in the browser extension.
 
 ~~~
 C-c C-c l
