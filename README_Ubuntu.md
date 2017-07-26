@@ -10,7 +10,7 @@ This file describes how to set up a basic development environment on a Linux box
 4. [Customizations](#customize)
 
 
-#### Update Sudo and Git {#update}
+#### Update Sudo and Git <a id='update'></a>
 
 ```
 sudo apt-get update && upgrade
@@ -18,7 +18,7 @@ sudo apt-get install git
 ```
 
 
-#### Conda {#conda}
+#### Conda <a id='conda'></a>
 
 <https://conda.io/docs/install/quick.html#quick-install>
 
@@ -31,7 +31,7 @@ conda update --all
 ```
 
 
-#### Configure Programs {#configure}
+#### Configure Programs <a id='configure'></a>
 
 <https://github.com/chrishagel/setup>
 
@@ -51,7 +51,7 @@ cp -r setup/dotfiles/.emacs.d .
 ```
 
 
-#### Customizations {#customize}
+#### Customizations <a id='customize'></a>
 
 Only one customization should be necessary:
 
