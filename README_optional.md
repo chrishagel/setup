@@ -88,7 +88,7 @@ $HOME/.dropbox-dist/dropboxd &
 
 ###### Mac
 
-| 1. Install Chrome and Dropbox
-| 2. Install a browser refresh extension
-|     a. Easy Auto Refresh or Super Auto Refresh
-| 3. Set Terminal to a darker theme
+1. Install Chrome and Dropbox
+2. Install a browser refresh extension
+   a. Easy Auto Refresh or Super Auto Refresh
+3. Set Terminal to a darker theme
