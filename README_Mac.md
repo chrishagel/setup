@@ -21,7 +21,7 @@ xcode-select --install
 ```
 
 
-#### Homebrew {#homebrew}
+#### Homebrew <a id='homebrew'></a>
 
 <https://brew.sh/>
 
@@ -33,7 +33,7 @@ brew update && brew upgrade
 ```
 
 
-#### Conda {#conda}
+#### Conda <a id='conda'></a>
 
 <https://conda.io/docs/install/quick.html#quick-install>
 
@@ -46,7 +46,7 @@ conda update --all
 ```
 
 
-#### GNU Core Utilities {#coreutils}
+#### GNU Core Utilities <a id='coreutils'></a>
 
 <https://anaconda.org/bioconda/coreutils>
 
@@ -57,7 +57,7 @@ conda install -c bioconda coreutils
 ```
 
 
-#### Configure Programs {#configure}
+#### Configure Programs <a id='configure'></a>
 
 <https://github.com/chrishagel/setup>
 
@@ -81,7 +81,7 @@ cp -r setup/dotfiles/.emacs.d .
 ```
 
 
-#### Emacs {#emacs}
+#### Emacs <a id='emacs'></a>
 
 <https://emacsformacosx.com/>
 
@@ -96,7 +96,7 @@ Download and install gui version from link above, then do the following:
 > Terminal > Preferences... > Keyboard > Check: "Use Option as Meta key"
 
 
-#### Customizations {#customize}
+#### Customizations <a id='customize'></a>
 
 Only two customizations should be necessary:
 
