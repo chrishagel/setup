@@ -11,7 +11,7 @@ This file describes some optional installs to orient the basic development envir
 5. [Customizations](#customize)
 
 
-#### R and Python for Data Science {#core}
+#### R and Python for Data Science <a id='core'></a>
 
 ```
 conda install r r-essentials
@@ -19,7 +19,7 @@ conda install numpy scipy pandas scikit-learn jupyter matplotlib seaborn sqlalch
 ```
 
 
-#### Octave, Scheme, Pandoc, and Julia {#extra}
+#### Octave, Scheme, Pandoc, and Julia <a id='extra'></a>
 
 - Octave: <https://www.gnu.org/software/octave/download.html>
 - Pandoc: <http://pandoc.org/installing.html>
@@ -46,7 +46,7 @@ sudo apt-get install julia
 ```
 
 
-#### SSH into Remote Instance {#ssh}
+#### SSH into Remote Instance <a id='ssh'></a>
 
 ```
 cd $HOME
@@ -65,7 +65,7 @@ ssh <HOST NAME>
 ```
 
 
-#### Headless Dropbox (Ubuntu only) {#dropbox}
+#### Headless Dropbox (Ubuntu only) <a id='dropbox'></a>
 
 <https://www.dropbox.com/install-linux>
 
@@ -84,7 +84,7 @@ $HOME/.dropbox-dist/dropboxd &
 ```
 
 
-#### Customizations {#customize}
+#### Customizations <a id='customize'></a>
 
 ###### Mac
 
