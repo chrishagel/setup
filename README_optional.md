@@ -4,11 +4,11 @@
 
 This file describes some optional installs to orient the basic development environment towards Data Science. This code should be run after the initial Mac or Ubuntu setup and, except where noted, should run fine in either environment.
 
-| 1. [R and Python for Data Science](#core) 
-| 2. [Octave, Scheme, Pandoc, and Julia](#extra) 
-| 3. [SSH](#ssh) 
-| 4. [Headless Dropbox](#dropbox)
-| 5. [Customizations](#customize)
+1. [R and Python for Data Science](#core) 
+2. [Octave, Scheme, Pandoc, and Julia](#extra) 
+3. [SSH](#ssh) 
+4. [Headless Dropbox](#dropbox)
+5. [Customizations](#customize)
 
 
 #### R and Python for Data Science {#core}
@@ -21,9 +21,9 @@ conda install numpy scipy pandas scikit-learn jupyter matplotlib seaborn sqlalch
 
 #### Octave, Scheme, Pandoc, and Julia {#extra}
 
-| Octave: <https://www.gnu.org/software/octave/download.html>
-| Pandoc: <http://pandoc.org/installing.html>
-| Julia: <https://julialang.org/downloads/platform.html>
+- Octave: <https://www.gnu.org/software/octave/download.html>
+- Pandoc: <http://pandoc.org/installing.html>
+- Julia: <https://julialang.org/downloads/platform.html>
 
 
 ###### Mac

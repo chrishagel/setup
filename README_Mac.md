@@ -4,13 +4,13 @@
 
 This file describes how to set up a basic development environment on a Mac running Sierra. 
 
-| 1. [XCode Command Line Tools and Git](#xcode)
-| 2. [Homebrew](#homebrew)
-| 3. [Conda](#conda)
-| 4. [GNU Core Utilities](#coreutils)
-| 5. [Configure Programs](#configure)
-| 6. [Emacs](#emacs)
-| 7. [Customizations](#customize)
+1. [XCode Command Line Tools and Git](#xcode)
+2. [Homebrew](#homebrew)
+3. [Conda](#conda)
+4. [GNU Core Utilities](#coreutils)
+5. [Configure Programs](#configure)
+6. [Emacs](#emacs)
+7. [Customizations](#customize)
 
 
 #### XCode Command Line Tools and Git {#xcode}
@@ -44,6 +44,7 @@ bash Miniconda3-latest-MacOSX-x86_64.sh
 
 conda update --all
 ```
+
 
 #### GNU Core Utilities {#coreutils}
 
