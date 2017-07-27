@@ -89,5 +89,5 @@ $HOME/.dropbox-dist/dropboxd &
 ###### Mac
 
 1. Install Chrome and Dropbox
-2. Install a browser refresh extension (Easy Auto Refresh, Super Auto Refresh, etc)
+2. Install a browser refresh extension for previewing Markdown (Easy Auto Refresh, Super Auto Refresh, etc)
 3. Set Terminal to a darker theme

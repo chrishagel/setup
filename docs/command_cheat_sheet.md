@@ -1,5 +1,5 @@
 
-### KeyStroke and Typing Shortcuts
+### Command Cheat Sheets
 
 1. [Bash](#bash)
 2. [Emacs](#emacs)
@@ -8,7 +8,7 @@
 5. [Remote AWS Connection](#aws)
 
 
-##### Bash <a id='bash'></a>
+#### Bash <a id='bash'></a>
 
 Action | Keys
 -------|-----
@@ -24,7 +24,7 @@ Start emacs | emacs
 New directory | mkdir **new directory name**
 
 
-##### Emacs <a id='emacs'></a>
+#### Emacs <a id='emacs'></a>
 
 Action | Keys
 -------|------
@@ -35,7 +35,7 @@ Create new file | **C-x C-f** (x2)
 Kill buffer (closes current file) | **C-x k**
   
 
-##### Python in Emacs <a id='python'></a>
+#### Python in Emacs <a id='python'></a>
 
 Action | Keys
 -------|-----
@@ -50,7 +50,7 @@ Rotate the buffer | **C-x <-/->**
 Run highlighted code | **C-c C-c**
 
 
-##### Screen <a id='screen'></a>
+#### Screen <a id='screen'></a>
 
 Action | Keys
 -------|-----
@@ -63,7 +63,7 @@ Kill terminal window | **C-t k**
 Detach from screen | **C-t d**
 
 
-##### Remote AWS Connection <a id='aws'></a>
+#### Remote AWS Connection <a id='aws'></a>
 
 Action | Keys 
 -------|------

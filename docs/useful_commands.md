@@ -3,19 +3,19 @@
 
 #### Reattach to a screen session that was interupted and is still attached
 
-~~~
+```
 screen -ls
 screen -r -d <PID> 
-~~~
+```
 
 
 
 #### Elpy hangs Emacs
 
-~~~
+```
 ps -ef | grep python
 kill <PID> # of elpy process
-~~~
+```
 
 
 
@@ -23,13 +23,11 @@ kill <PID> # of elpy process
 
 https://github.com/jorgenschaefer/elpy/issues/285
 
-In scratch frame
+In scratch frame: C-x C-e with cursor to right of final paren
 
-C-x C-e with cursor to right of final paren
-
-~~~
+```
 (pyvenv-activate (expand-file-name "~/Miniconda3/envs/<env_name>"))
-~~~
+```
 
 
 
@@ -37,7 +35,22 @@ C-x C-e with cursor to right of final paren
 
 Run the following in emacs then close and reopen emacs to try again
 
-~~~
+```
 M-x package-refresh-contents
-~~~
+```
 
+
+#### Git WorkfLow
+
+```
+# Add remote (create on github first)
+git remote add origin https://github.com/chrishagel/<REPO NAME>.git
+```
+
+```
+git status
+git add <File or Directory or '--all'>
+git commit -m "<commit message>"
+git push origin master
+git status
+```
