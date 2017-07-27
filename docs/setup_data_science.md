@@ -1,6 +1,6 @@
 
 
-### Optional Installs
+### Data Science Environment
 
 This file describes some optional installs to orient the basic development environment towards Data Science. This code should be run after the initial Mac or Ubuntu setup and, except where noted, should run fine in either environment.
 
