@@ -59,3 +59,5 @@ Only one customization should be necessary:
 ```
 export PATH="/home/<USER NAME>/miniconda3/bin:$PATH"
 ```
+
+(And make sure .bashrc does not contain an alias to the Mac emacs gui)
