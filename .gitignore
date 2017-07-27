@@ -2,14 +2,18 @@
 # Ignore
 
 .DS_Store                                                                   
-.Trashes                                                                    
-#README_optional.md                                                           
+.Trashes                                                                                                            
+
+# Autosaves and Backups
 \#*
 *~
-archive
+ 
 dotfiles/.emacs.d/autosaves                                                 
 dotfiles/.emacs.d/backups                                                   
 dotfiles/.emacs.d/auto-save-list                                            
 dotfiles/.emacs.d/snippets                                                  
 dotfiles/.emacs.d/ido.last                                                  
 dotfiles/.emacs.d/elpa  
+dotfiles/.emacs.d/configFiles/init_trial.el
+archive
+speed-type

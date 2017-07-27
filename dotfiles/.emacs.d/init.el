@@ -61,6 +61,7 @@
 (load "~/.emacs.d/configFiles/init_ess.el")
 (load "~/.emacs.d/configFiles/init_octave.el")
 (load "~/.emacs.d/configFiles/init_scheme.el")
+(load "~/.emacs.d/configFiles/init_trial.el")
 
 
 (custom-set-variables
