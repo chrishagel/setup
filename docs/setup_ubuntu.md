@@ -4,13 +4,13 @@
 
 This file describes how to set up a basic development environment on a Linux box running Ubuntu 16 LTS. 
 
-1. [Update Sudo and Git](#update)
+1. [Update Apt-Get and Git](#update)
 2. [Conda](#conda)
 3. [Configure Programs](#configure)
 4. [Customizations](#customize)
 
 
-#### Update Sudo and Git <a id='update'></a>
+#### Update Apt-Get and Git <a id='update'></a>
 
 ```
 sudo apt-get update && upgrade
