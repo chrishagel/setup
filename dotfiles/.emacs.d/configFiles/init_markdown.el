@@ -30,16 +30,21 @@
 
 ;; Note on CSS
 ;; css: https://gist.github.com/tuzz/3331384
+;; Alt css: https://gist.github.com/Dashed/6714393
 ;; Can't link directly to raw as github will serve it with MIME Type text/plain and browser needs it as text/css
 ;; So we funnel it through another service (rawgit: https://rawgit.com/) and use the cdn link which will serve it so our browser can use it 
 
 (setq markdown-enable-math t)
 (setq markdown-command "pandoc")
-(setq markdown-header-scaling t)
+;;(setq markdown-header-scaling t)
 (setq markdown-xhtml-header-content "
 <link rel='stylesheet' type='text/css' media='all' href='https://cdn.rawgit.com/tuzz/3331384/raw/94f2380c2b798fab2139fd0a8f478c4f2d642e3b/github.css'/>
 <script type='text/javascript' async src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML'> </script>
 ")
+
+
+;; Add org-table minor mode
+;;(add-hook 'markdown-mode-hook 'turn-on-orgtbl)
 
 
 
