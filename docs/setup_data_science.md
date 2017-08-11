@@ -5,7 +5,7 @@
 This file describes some optional installs to orient the basic development environment towards Data Science. This code should be run after the initial Mac or Ubuntu setup and, except where noted, should run fine in either environment.
 
 1. [R and Python for Data Science](#core) 
-2. [Octave, Scheme, Pandoc, and Julia](#extra) 
+2. [Octave, Scheme, Julia, Pandoc, and LaTeX](#extra) 
 3. [SSH](#ssh) 
 4. [Headless Dropbox](#dropbox)
 5. [Customizations](#customize)
@@ -90,7 +90,7 @@ $HOME/.dropbox-dist/dropboxd &
 #### Customizations <a id='customize'></a>
 
 ###### Pandoc
-1. Place custome LaTeX templates in $HOME/.pandoc/templates/
+1. Place custom LaTeX templates in $HOME/.pandoc/templates/
 2. Use them with the --template=<TEMPLATE_NAME> flag
 
 
