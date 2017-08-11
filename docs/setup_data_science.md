@@ -19,11 +19,12 @@ conda install numpy scipy pandas scikit-learn jupyter matplotlib seaborn sqlalch
 ```
 
 
-#### Octave, Scheme, Pandoc, and Julia <a id='extra'></a>
+#### Octave, Scheme, Julia, Pandoc, and LaTeX <a id='extra'></a>
 
 - Octave: <https://www.gnu.org/software/octave/download.html>
-- Pandoc: <http://pandoc.org/installing.html>
 - Julia: <https://julialang.org/downloads/platform.html>
+- Pandoc: <http://pandoc.org/installing.html>
+- TeXLive/MacTeX: <https://www.tug.org/texlive/>
 
 
 ###### Mac
@@ -31,8 +32,9 @@ conda install numpy scipy pandas scikit-learn jupyter matplotlib seaborn sqlalch
 ```
 brew install octave
 brew install mit-scheme
-brew install pandoc
 brew cask install julia
+brew install pandoc
+breaw cask install mactex
 ```
 
 
@@ -41,8 +43,9 @@ brew cask install julia
 ```
 sudo apt-get install octave
 sudo apt-get install mit-scheme
-sudo apt-get install pandoc
 sudo apt-get install julia
+sudo apt-get install pandoc
+sudo apt-get install texlive
 ```
 
 
@@ -85,6 +88,11 @@ $HOME/.dropbox-dist/dropboxd &
 
 
 #### Customizations <a id='customize'></a>
+
+###### Pandoc
+1. Place custome LaTeX templates in $HOME/.pandoc/templates/
+2. Use them with the --template=<TEMPLATE_NAME> flag
+
 
 ###### Mac
 
