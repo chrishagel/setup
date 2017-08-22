@@ -39,9 +39,10 @@
 ;;(setq markdown-header-scaling t)
 (setq markdown-xhtml-header-content "
 <link rel='stylesheet' type='text/css' media='all' href='https://cdn.rawgit.com/tuzz/3331384/raw/94f2380c2b798fab2139fd0a8f478c4f2d642e3b/github.css'/>
+<style> li {margin: 0px 0;} </style>
 <script type='text/javascript' async src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML'> </script>
 ")
-
+ 
 
 ;; Add org-table minor mode
 ;;(add-hook 'markdown-mode-hook 'turn-on-orgtbl)
