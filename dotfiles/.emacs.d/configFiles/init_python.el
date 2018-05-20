@@ -9,6 +9,7 @@
     flycheck
     py-autopep8
     pyenv-mode
+    conda
     ))
 
 (mapc #'(lambda (package)
@@ -33,6 +34,18 @@
 (require 'py-autopep8)
 (add-hook 'elpy-mode-hook 'py-autopep8-enable-on-save)
 
+
+;; Conda Settings
+(require 'conda)
+;; if you want interactive shell support, include:
+(conda-env-initialize-interactive-shells)
+;; if you want eshell support, include:
+(conda-env-initialize-eshell)
+;; if you want auto-activation (see below for details), include:
+(conda-env-autoactivate-mode t)
+
+(custom-set-variables
+ '(conda-anaconda-home "~/miniconda3"))
 
 ;; Python settings for if not using elpy
 
