@@ -13,7 +13,7 @@ This file describes how to set up a basic development environment on a Linux box
 #### Update Apt-Get and Git <a id='update'></a>
 
 ```
-sudo apt-get update && upgrade
+sudo apt-get update && sudo apt-get upgrade
 sudo apt-get install git
 ```
 

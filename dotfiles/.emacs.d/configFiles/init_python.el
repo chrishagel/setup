@@ -20,8 +20,15 @@
 
 ;; Python Settings
 (elpy-enable)
-(elpy-use-ipython)
-(setenv "IPY_TEST_SIMPLE_PROMPT" "1")
+;(elpy-use-ipython)
+;(setenv "IPY_TEST_SIMPLE_PROMPT" "1")
+(setq python-shell-interpreter "jupyter"
+      python-shell-interpreter-args "console --simple-prompt"
+      python-shell-prompt-detect-failure-warning nil)
+(add-to-list 'python-shell-completion-native-disabled-interpreters
+             "jupyter")
+
+
 
 
 ;; Use flycheck not flymake with elpy
